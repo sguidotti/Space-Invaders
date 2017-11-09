@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Galaga" targetName="galaga" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d3ff0ef-b49f-4d86-9629-85a27736d955" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sfml</find>
+      <find>draw</find>
+      <find>enemy</find>
+      <find>RowComposite</find>
+      <find>ScreenComposite</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>EnemySmall</replace>
+      <replace>EnemyMedium</replace>
+      <replace>EnemyLarge</replace>
+      <replace>ScreenComposite</replace>
+      <replace>PlayerComposite</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Compositions/PlayerComposite.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Leaves/Bullet.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Leaves/Bullet.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Enemies/Component/Rows.h" />
+        <option value="$PROJECT_DIR$/Enemies/Component/Composite/CompositeRows.h" />
+        <option value="$PROJECT_DIR$/DrawableCharacter.cpp" />
+        <option value="$PROJECT_DIR$/DrawableCharacter.h" />
+        <option value="$PROJECT_DIR$/WindowCharacter.h" />
+        <option value="$PROJECT_DIR$/WindowCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
+        <option value="$PROJECT_DIR$/Game.h" />
+        <option value="$PROJECT_DIR$/CompositionCharacter.cpp" />
+        <option value="$PROJECT_DIR$/CompositionCharacter.h" />
+        <option value="$PROJECT_DIR$/RowComposite.cpp" />
+        <option value="$PROJECT_DIR$/Enemey.cpp" />
+        <option value="$PROJECT_DIR$/Enemey.h" />
+        <option value="$PROJECT_DIR$/Character.h" />
+        <option value="$PROJECT_DIR$/Character.cpp" />
+        <option value="$PROJECT_DIR$/RowComposite.h" />
+        <option value="$PROJECT_DIR$/Observer Pattern Abstract/Observer.cpp" />
+        <option value="$PROJECT_DIR$/Observer Pattern Abstract/Observer.h" />
+        <option value="$PROJECT_DIR$/Observer Pattern Abstract/Subject.h" />
+        <option value="$PROJECT_DIR$/Observer Pattern Abstract/Subject.cpp" />
+        <option value="$PROJECT_DIR$/Bullet.cpp" />
+        <option value="$PROJECT_DIR$/Enemy.h" />
+        <option value="$PROJECT_DIR$/Bullet.h" />
+        <option value="$PROJECT_DIR$/Enemy.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/Row.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Row.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/EnemyRow.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/EnemyRow.h" />
+        <option value="$PROJECT_DIR$/Compositions/RowComposite.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/RowComposite.h" />
+        <option value="$PROJECT_DIR$/Leaves/Enemy.h" />
+        <option value="$PROJECT_DIR$/Leaves/Enemy.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.h" />
+        <option value="$PROJECT_DIR$/Compositions/ScreenComposite.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/ScreenComposite.h" />
+        <option value="$PROJECT_DIR$/Row.h" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.h" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" />
+        <option value="$PROJECT_DIR$/Component.h" />
+        <option value="$PROJECT_DIR$/Component.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/Bullet.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/Bullet.h" />
+        <option value="$PROJECT_DIR$/Leaves/Player.h" />
+        <option value="$PROJECT_DIR$/Leaves/Player.cpp" />
+        <option value="$PROJECT_DIR$/Compositions/PlayerComposite.h" />
+        <option value="$PROJECT_DIR$/Compositions/PlayerComposite.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Galaga" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Galaga" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaga" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Galaga" type="462c0819:PsiDirectoryNode" />
+              <item name="Leaves" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="setOrigin&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/Compositions" />
+      <recent name="$PROJECT_DIR$/Leaves" />
+      <recent name="$PROJECT_DIR$/Enemies/Component" />
+      <recent name="$PROJECT_DIR$/Enemies/Rows" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake_modules" />
+      <recent name="$PROJECT_DIR$/Includes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Galaga">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="Galaga" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Galaga" TARGET_NAME="galaga" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Galaga" RUN_TARGET_NAME="galaga">
+      <envs />
+    </configuration>
+    <configuration name="Galaga" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Galaga" TARGET_NAME="galaga" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Galaga" RUN_TARGET_NAME="galaga">
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Galaga" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d3ff0ef-b49f-4d86-9629-85a27736d955" name="Default" comment="" />
+      <created>1506629044999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506629044999</updated>
+      <workItem from="1506629048550" duration="2973000" />
+      <workItem from="1506730650881" duration="822000" />
+      <workItem from="1506731883457" duration="4531000" />
+      <workItem from="1506748628199" duration="2517000" />
+      <workItem from="1507008847061" duration="9000" />
+      <workItem from="1507008879689" duration="44000" />
+      <workItem from="1508811363053" duration="148000" />
+      <workItem from="1508811515344" duration="12192000" />
+      <workItem from="1508871613288" duration="1002000" />
+      <workItem from="1508961967916" duration="15555000" />
+      <workItem from="1509007497736" duration="8596000" />
+      <workItem from="1509078776884" duration="137000" />
+      <workItem from="1509651972696" duration="18897000" />
+      <workItem from="1509686783093" duration="155000" />
+      <workItem from="1509719854434" duration="127000" />
+      <workItem from="1510168851628" duration="259000" />
+      <workItem from="1510209893551" duration="220000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit uploading the pre coding setup including catch and sfml">
+      <created>1506749061159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506749061159</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit for the first near working version of space invaders">
+      <created>1510210065792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510210065792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Main_Menu - 2017.09.28 at 14h 10m 12s.xml">
+      <configuration name="Main Menu" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Main_Menu - 2017.09.29 at 17h 46m 49s.xml">
+      <configuration name="Main Menu" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68184000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30452344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28133333" sideWeight="0.38529888" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.74555737" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.25444266" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit uploading the pre coding setup including catch and sfml" />
+    <MESSAGE value="Commit for the first near working version of space invaders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for the first near working version of space invaders" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+</project>
