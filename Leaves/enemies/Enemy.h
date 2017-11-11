@@ -2,26 +2,27 @@
 // Created by Scott Anthony Guidotti  on 11/2/17.
 //
 
-#ifndef GALAGA_ENEMYLARGE_H
-#define GALAGA_ENEMYLARGE_H
+#ifndef GALAGA_ENEMYSMALL_H
+#define GALAGA_ENEMYSMALL_H
 
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include "../../Component.h"
 
-
-class EnemyLarge:public Component {
+class Enemy : public Component {
 public:
-    EnemyLarge();
-    ~EnemyLarge() override;
-    explicit EnemyLarge(sf::Vector2f position);
+    Enemy(std::string, std::string, sf::Vector2f);
+
+    ~Enemy() override;
+
+    Enemy() = default;
     void draw(sf::RenderWindow&) override;
     void moveHorizontal() override;
 
     bool isOnScreen() override;
+    void die() override {alive = false; score += 100;}
     bool isAlive() override {return alive;}
-    void die() override {alive = false; score += 60;}
     void moveDown() override;
     void swapTexture();
 
@@ -43,4 +44,4 @@ private:
 
 };
 
-#endif //GALAGA_ENEMYLARGE_H
+#endif //GALAGA_ENEMYSMALL_H

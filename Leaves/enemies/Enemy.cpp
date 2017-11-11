@@ -1,44 +1,38 @@
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Window/Keyboard.hpp>
-#include "EnemySmall.h"
+#include "Enemy.h"
 
-
-
-EnemySmall::EnemySmall(){
+Enemy::Enemy(std::string fileA, std::string fileB, sf::Vector2f position)
+{
 
     // move texture and position to inside constructor
-    textureA.loadFromFile("images/invader-3-frame-1(2).png");
-    textureB.loadFromFile("images/invader-3-frame-2(2).png");
+    textureA.loadFromFile(fileA);
+    textureB.loadFromFile(fileB);
     sprite = new sf::Sprite(textureA);
     boundingBox = sprite->getGlobalBounds();
-}
-
-EnemySmall::EnemySmall(sf::Vector2f position)
-        :EnemySmall()
-{
     sprite->setPosition(position);
 }
 
-void EnemySmall::draw(sf::RenderWindow& window)
+void Enemy::draw(sf::RenderWindow& window)
 {
     window.draw(*sprite);
 }
 
-void EnemySmall::moveHorizontal()
+void Enemy::moveHorizontal()
 {
     sprite->move(offsetX);
     swapTexture();
 
 }
 
-void EnemySmall::moveDown()
+void Enemy::moveDown()
 {
     sprite->move(offsetY);
     // reverse direction
     offsetX.x *= -1;
 }
 
-bool EnemySmall::isOnScreen()
+bool Enemy::isOnScreen()
 {
     // assume not at the edge
     onScreen = true;
@@ -52,7 +46,7 @@ bool EnemySmall::isOnScreen()
 
 }
 
-void EnemySmall::swapTexture()
+void Enemy::swapTexture()
 {
     if(currentTexture == first) {
         sprite->setTexture(textureB);
@@ -64,17 +58,17 @@ void EnemySmall::swapTexture()
     }
 }
 
-sf::FloatRect EnemySmall::getBoundingBox()
+sf::FloatRect Enemy::getBoundingBox()
 {
     boundingBox = sprite->getGlobalBounds();
     return boundingBox;
 }
 
-sf::Sprite* EnemySmall::getSprite()
+sf::Sprite* Enemy::getSprite()
 {
     return sprite;
 }
 
-EnemySmall::~EnemySmall()
+Enemy::~Enemy()
 = default;
 

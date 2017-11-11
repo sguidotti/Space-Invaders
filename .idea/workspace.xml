@@ -12,43 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d3ff0ef-b49f-4d86-9629-85a27736d955" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Colissions.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Colissions.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Compositions/EnemyRow.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Compositions/RowComposite.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Leaves/Player.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" afterPath="$PROJECT_DIR$/Leaves/enemies/Enemy.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" afterPath="$PROJECT_DIR$/Leaves/enemies/Enemy.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/galaga" afterPath="$PROJECT_DIR$/cmake-build-debug/galaga" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Component.cpp" afterPath="$PROJECT_DIR$/Component.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Component.h" afterPath="$PROJECT_DIR$/Component.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/EnemyRow.cpp" afterPath="$PROJECT_DIR$/Compositions/EnemyRow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/EnemyRow.h" afterPath="$PROJECT_DIR$/Compositions/EnemyRow.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/PlayerComposite.cpp" afterPath="$PROJECT_DIR$/Compositions/PlayerComposite.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/PlayerComposite.h" afterPath="$PROJECT_DIR$/Compositions/PlayerComposite.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/RowComposite.h" afterPath="$PROJECT_DIR$/Compositions/RowComposite.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compositions/ScreenComposite.h" afterPath="$PROJECT_DIR$/Compositions/ScreenComposite.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/Bullet.cpp" afterPath="$PROJECT_DIR$/Leaves/Bullet.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/Bullet.h" afterPath="$PROJECT_DIR$/Leaves/Bullet.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/Player.cpp" afterPath="$PROJECT_DIR$/Leaves/Player.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/Player.h" afterPath="$PROJECT_DIR$/Leaves/Player.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.h" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.h" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" afterPath="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Component.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/Component.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/galaga.dir/progress.make" />
@@ -67,23 +49,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnemyLarge.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invader-1-frame-1(2).png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/invader-1-frame-1(2).png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="EnemyRow.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Compositions/EnemyRow.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerComposite.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Compositions/PlayerComposite.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerComposite.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Compositions/PlayerComposite.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -92,62 +99,38 @@
       <file leaf-file-name="EnemyRow.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Compositions/EnemyRow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="Enemy.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaves/enemies/Enemy.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaves/Player.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component.h">
+      <file leaf-file-name="Enemy.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leaves/enemies/Enemy.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-              <folding>
-                <element signature="e#113#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leaves/Player.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Game.h">
+      <file leaf-file-name="RowComposite.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Compositions/RowComposite.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,14 +162,11 @@
     <setting file="file://$PROJECT_DIR$/Compositions/PlayerComposite.h" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Leaves/Bullet.h" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Leaves/Bullet.cpp" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Leaves/enemies/Enemy.cpp" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DrawableCharacter.cpp" />
         <option value="$PROJECT_DIR$/DrawableCharacter.h" />
         <option value="$PROJECT_DIR$/WindowCharacter.h" />
         <option value="$PROJECT_DIR$/WindowCharacter.cpp" />
@@ -228,15 +208,16 @@
         <option value="$PROJECT_DIR$/Component.cpp" />
         <option value="$PROJECT_DIR$/Leaves/Bullet.h" />
         <option value="$PROJECT_DIR$/Leaves/Bullet.cpp" />
-        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" />
-        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" />
         <option value="$PROJECT_DIR$/Leaves/enemies/EnemyMedium.cpp" />
         <option value="$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp" />
         <option value="$PROJECT_DIR$/Component.h" />
         <option value="$PROJECT_DIR$/Compositions/EnemyRow.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Leaves/Player.h" />
         <option value="$PROJECT_DIR$/Leaves/Player.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/EnemySmall.h" />
+        <option value="$PROJECT_DIR$/Leaves/enemies/Enemy.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -396,6 +377,7 @@
       <workItem from="1510168851628" duration="259000" />
       <workItem from="1510209893551" duration="220000" />
       <workItem from="1510389848642" duration="7478000" />
+      <workItem from="1510404372746" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit uploading the pre coding setup including catch and sfml">
       <created>1506749061159</created>
@@ -423,22 +405,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76036000" />
+    <option name="totallyTimeSpent" value="76412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31421646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28133333" sideWeight="0.38529888" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.74717283" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.25282714" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30936995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -447,11 +427,22 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -512,7 +503,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Include/Compositions/ScreenComposite.h" />
-    <entry file="file://$PROJECT_DIR$/Include/Compositions/ScreenComposite.h" />
     <entry file="file://$PROJECT_DIR$/Include/Leaves/enemies/EnemyLarge.h" />
     <entry file="file://$PROJECT_DIR$/Include/Leaves/enemies/EnemyLarge.h" />
     <entry file="file://$PROJECT_DIR$/Include/Leaves/enemies/EnemyLarge.h" />
@@ -542,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,9 +545,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Compositions/RowComposite.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1510404304844" expanded="true" signature="258:943" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -566,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,34 +576,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollisonDetection.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollisonDetection.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollisonDetection.cpp" />
+    <entry file="file://$PROJECT_DIR$/CollisonDetection.h" />
     <entry file="file://$PROJECT_DIR$/Compositions/RowComposite.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Compositions/PlayerComposite.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -628,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Compositions/PlayerComposite.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -638,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="2095" column="23" lean-forward="false" selection-start-line="2095" selection-start-column="23" selection-end-line="2095" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,22 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaves/enemies/EnemySmall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaves/enemies/EnemySmall.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -706,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -734,29 +683,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Compositions/EnemyRow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Compositions/EnemyRow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,6 +721,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compositions/EnemyRow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaves/enemies/Enemy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/invader-1-frame-1(2).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaves/enemies/EnemyLarge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaves/enemies/Enemy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
         </state>
       </provider>

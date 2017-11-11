@@ -10,8 +10,7 @@ set(SOURCE_FILES main.cpp
         "Observer Pattern Abstract/Subject.cpp" "Observer Pattern Abstract/Subject.h"
         "Observer Pattern Abstract/Observer.cpp" "Observer Pattern Abstract/Observer.h"
         Compositions/EnemyRow.cpp Compositions/EnemyRow.h Leaves/Player.cpp Leaves/Player.h
-        Leaves/enemies/EnemySmall.cpp Leaves/enemies/EnemySmall.h Leaves/enemies/EnemyMedium.cpp
-        Leaves/enemies/EnemyMedium.h Leaves/enemies/EnemyLarge.cpp Leaves/enemies/EnemyLarge.h
+        Leaves/enemies/Enemy.cpp Leaves/enemies/Enemy.h
         Compositions/ScreenComposite.cpp Compositions/ScreenComposite.h Leaves/Bullet.cpp Leaves/Bullet.h
         Compositions/PlayerComposite.cpp Compositions/PlayerComposite.h Colissions.cpp Colissions.h)
 

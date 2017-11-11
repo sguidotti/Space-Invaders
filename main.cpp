@@ -2,9 +2,8 @@
 #include "Game.h"
 #include "Compositions/RowComposite.h"
 #include "Compositions/EnemyRow.h"
-#include "Leaves/enemies/EnemySmall.h"
-#include "Leaves/enemies/EnemyMedium.h"
-#include "Leaves/enemies/EnemyLarge.h"
+#include "Leaves/enemies/Enemy.h"
+
 #include "Compositions/ScreenComposite.h"
 #include "Leaves/Player.h"
 #include "Compositions/PlayerComposite.h"
@@ -12,6 +11,12 @@
 
 int main()
 {
+    std::string enemy1_1 = "images/invader-1-frame-1(2).png";
+    std::string enemy1_2 = "images/invader-1-frame-2(2).png";
+    std::string enemy2_1 = "images/invader-2-frame-1(2).png";
+    std::string enemy2_2 = "images/invader-2-frame-2(2).png";
+    std::string enemy3_1 = "images/invader-3-frame-1(2).png";
+    std::string enemy3_2 = "images/invader-3-frame-2(2).png";
     // create window
     const int height = 800;
     const int width = 800;
@@ -43,13 +48,13 @@ int main()
             temp.x = position.x + (j * 100);
             temp.y = position.y + (i * 100);
             if(i == 0) {
-                Component* enemy = new EnemySmall(temp);
+                Component* enemy = new Enemy(enemy3_1, enemy3_2, temp);
                 row->add(enemy);
             } else if(i == 1) {
-                Component* enemy = new EnemyMedium(temp);
+                Component* enemy = new Enemy(enemy2_1, enemy2_2, temp);
                 row->add(enemy);
             } else if(i == 2) {
-                Component* enemy = new EnemyLarge(temp);
+                Component* enemy = new Enemy(enemy1_1, enemy1_2, temp);
                 row->add(enemy);
             }
         }

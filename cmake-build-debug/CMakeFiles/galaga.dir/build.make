@@ -249,81 +249,33 @@ CMakeFiles/galaga.dir/Leaves/Player.cpp.o.provides: CMakeFiles/galaga.dir/Leaves
 CMakeFiles/galaga.dir/Leaves/Player.cpp.o.provides.build: CMakeFiles/galaga.dir/Leaves/Player.cpp.o
 
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o: CMakeFiles/galaga.dir/flags.make
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o: ../Leaves/enemies/EnemySmall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.cpp"
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o: CMakeFiles/galaga.dir/flags.make
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o: ../Leaves/enemies/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.cpp"
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.cpp" > CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.i
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.cpp" > CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.i
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.cpp" -o CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.s
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.cpp" -o CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.s
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.requires:
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.requires:
 
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.requires
+.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.requires
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.provides: CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.requires
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.provides.build
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.provides
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.provides: CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.provides.build
+.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.provides
 
-CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.provides.build: CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o
-
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o: CMakeFiles/galaga.dir/flags.make
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o: ../Leaves/enemies/EnemyMedium.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.cpp"
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.cpp" > CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.i
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.cpp" -o CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.s
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.requires:
-
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.requires
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.provides: CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.requires
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.provides.build
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.provides
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.provides.build: CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o
-
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o: CMakeFiles/galaga.dir/flags.make
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o: ../Leaves/enemies/EnemyLarge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.cpp"
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.cpp" > CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.i
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.cpp" -o CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.s
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.requires:
-
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.requires
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.provides: CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.requires
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.provides.build
-.PHONY : CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.provides
-
-CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.provides.build: CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o
+CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.provides.build: CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o
 
 
 CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o: CMakeFiles/galaga.dir/flags.make
 CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o: ../Compositions/ScreenComposite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/ScreenComposite.cpp"
 
 CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.i: cmake_force
@@ -347,7 +299,7 @@ CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o: CMakeFiles/galaga.dir/flags.make
 CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o: ../Leaves/Bullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/Bullet.cpp"
 
 CMakeFiles/galaga.dir/Leaves/Bullet.cpp.i: cmake_force
@@ -371,7 +323,7 @@ CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o.provides.build: CMakeFiles/galaga.dir/
 
 CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o: CMakeFiles/galaga.dir/flags.make
 CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o: ../Compositions/PlayerComposite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/PlayerComposite.cpp"
 
 CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.i: cmake_force
@@ -395,7 +347,7 @@ CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/galaga.dir/Colissions.cpp.o: CMakeFiles/galaga.dir/flags.make
 CMakeFiles/galaga.dir/Colissions.cpp.o: ../Colissions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/galaga.dir/Colissions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/galaga.dir/Colissions.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galaga.dir/Colissions.cpp.o -c "/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.cpp"
 
 CMakeFiles/galaga.dir/Colissions.cpp.i: cmake_force
@@ -427,9 +379,7 @@ galaga_OBJECTS = \
 "CMakeFiles/galaga.dir/Observer_Pattern_Abstract/Observer.cpp.o" \
 "CMakeFiles/galaga.dir/Compositions/EnemyRow.cpp.o" \
 "CMakeFiles/galaga.dir/Leaves/Player.cpp.o" \
-"CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o" \
-"CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o" \
-"CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o" \
+"CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o" \
 "CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o" \
 "CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o" \
 "CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o" \
@@ -446,9 +396,7 @@ galaga: CMakeFiles/galaga.dir/Observer_Pattern_Abstract/Subject.cpp.o
 galaga: CMakeFiles/galaga.dir/Observer_Pattern_Abstract/Observer.cpp.o
 galaga: CMakeFiles/galaga.dir/Compositions/EnemyRow.cpp.o
 galaga: CMakeFiles/galaga.dir/Leaves/Player.cpp.o
-galaga: CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o
-galaga: CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o
-galaga: CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o
+galaga: CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o
 galaga: CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o
 galaga: CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o
 galaga: CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o
@@ -460,7 +408,7 @@ galaga: /usr/local/lib/libsfml-graphics.dylib
 galaga: /usr/local/lib/libsfml-network.dylib
 galaga: /usr/local/lib/libsfml-audio.dylib
 galaga: CMakeFiles/galaga.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable galaga"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable galaga"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/galaga.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -476,9 +424,7 @@ CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Observer_Pattern_Abstract/
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Observer_Pattern_Abstract/Observer.cpp.o.requires
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Compositions/EnemyRow.cpp.o.requires
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/Player.cpp.o.requires
-CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o.requires
-CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o.requires
-CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o.requires
+CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o.requires
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o.requires
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o.requires
 CMakeFiles/galaga.dir/requires: CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o.requires

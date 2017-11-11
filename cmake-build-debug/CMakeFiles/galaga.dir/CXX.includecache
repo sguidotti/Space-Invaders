@@ -108,51 +108,15 @@ SFML/Graphics/Sprite.hpp
 ../Component.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.h
 
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.cpp
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.cpp
 SFML/Graphics/Texture.hpp
 -
 SFML/Window/Keyboard.hpp
 -
-EnemyLarge.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.h
+Enemy.h
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.h
 
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.h
-SFML/Graphics/Sprite.hpp
--
-SFML/Graphics/RenderWindow.hpp
--
-SFML/Graphics/Texture.hpp
--
-../../Component.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.h
-
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.cpp
-SFML/Graphics/Texture.hpp
--
-SFML/Window/Keyboard.hpp
--
-EnemyMedium.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.h
-
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.h
-SFML/Graphics/Sprite.hpp
--
-SFML/Graphics/RenderWindow.hpp
--
-SFML/Graphics/Texture.hpp
--
-../../Component.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.h
-
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.cpp
-SFML/Graphics/Texture.hpp
--
-SFML/Window/Keyboard.hpp
--
-EnemySmall.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.h
-
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.h
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.h
 SFML/Graphics/Sprite.hpp
 -
 SFML/Graphics/RenderWindow.hpp
@@ -187,12 +151,8 @@ Compositions/RowComposite.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/RowComposite.h
 Compositions/EnemyRow.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/EnemyRow.h
-Leaves/enemies/EnemySmall.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.h
-Leaves/enemies/EnemyMedium.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.h
-Leaves/enemies/EnemyLarge.h
-/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.h
+Leaves/enemies/Enemy.h
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.h
 Compositions/ScreenComposite.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/ScreenComposite.h
 Leaves/Player.h
