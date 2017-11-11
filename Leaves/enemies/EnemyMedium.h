@@ -16,9 +16,16 @@ public:
     ~EnemyMedium() override;
     explicit EnemyMedium(sf::Vector2f position);
     void draw(sf::RenderWindow&) override;
+
+    sf::Sprite* getSprite() override;
+
     void moveHorizontal() override;
 
+    sf::FloatRect getBoundingBox() override;
+
     bool isOnScreen() override;
+    void die() override {alive = false;}
+    bool isAlive() override {return alive;}
 
     void moveDown() override;
     void swapTexture();

@@ -31,7 +31,10 @@ void PlayerComposite::move(float deltaTime)
     }
     for(auto component: componentsList) {
         component->move(deltaTime);
-        if(!component->isOnScreen()) remove();
+        if(!component->isOnScreen()) component->die();
+        if(!component->isAlive())  {
+            remove();
+        }
     }
 }
 

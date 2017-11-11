@@ -63,6 +63,17 @@ void EnemyMedium::swapTexture()
     }
 }
 
+sf::FloatRect EnemyMedium::getBoundingBox()
+{
+    boundingBox = sprite->getGlobalBounds();
+    return boundingBox;
+}
+
+sf::Sprite* EnemyMedium::getSprite()
+{
+    return sprite;
+}
+
 EnemyMedium::~EnemyMedium()
 = default;
 

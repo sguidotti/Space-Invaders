@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/galaga.dir/Compositions/ScreenComposite.cpp.o"
   "CMakeFiles/galaga.dir/Leaves/Bullet.cpp.o"
   "CMakeFiles/galaga.dir/Compositions/PlayerComposite.cpp.o"
+  "CMakeFiles/galaga.dir/Colissions.cpp.o"
   "galaga.pdb"
   "galaga"
 )

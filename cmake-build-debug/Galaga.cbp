@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.cpp">
+			<Option target="galaga"/>
+		</Unit>
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.h">
+			<Option target="galaga"/>
+		</Unit>
 		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.cpp">
 			<Option target="galaga"/>
 		</Unit>

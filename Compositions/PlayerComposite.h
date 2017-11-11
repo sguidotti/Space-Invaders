@@ -15,7 +15,7 @@ public:
     void move(float deltaTime) override;
     void draw(sf::RenderWindow&) override;
     void remove();
-    Component* getComposite() override {return this;}
+    Components getComposite() override {return componentsList;}
 private:
     std::vector<Component*> componentsList;
     bool isFired = false;

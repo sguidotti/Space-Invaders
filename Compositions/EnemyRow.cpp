@@ -4,20 +4,6 @@
 
 #include "EnemyRow.h"
 
-bool EnemyRow::isAlive()
-{
-    // assume dead unless we find a living enemy in row
-    for(auto component: componentsList) {
-        if(component->isAlive()) {
-            // if a single enemy is alive then entire row is alive
-            return true;
-        }
-
-    }
-    // otherwise all are dead
-    return false;
-}
-
 bool EnemyRow::isMovingLeft()
 {
     return moveLeft;
@@ -56,8 +42,18 @@ void EnemyRow::add(Component* component)
 
 void EnemyRow::draw(sf::RenderWindow& window)
 {
+    update();
     for(auto component: componentsList) {
         component->draw(window);
     }
 }
+
+void EnemyRow::update()
+{
+    componentsList.erase(std::remove_if(componentsList.begin(), componentsList.end(),
+            [](Component* c) {return !c->isAlive();}),
+            componentsList.end());
+}
+
+
 

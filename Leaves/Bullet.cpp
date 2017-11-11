@@ -10,6 +10,8 @@ Bullet::Bullet()
     sprite = new sf::Sprite(textureA);
     sprite->scale(0.5,0.5);
     boundingBox = sprite->getGlobalBounds();
+    alive = true;
+    onScreen = true;
 }
 
 Bullet::Bullet(sf::Vector2f position):Bullet()
@@ -21,6 +23,7 @@ void Bullet::move(float deltaTime)
 {
     sprite->move(0, deltaTime*velocity);
     if(sprite->getPosition().y < 0) onScreen = false;
+
 }
 
 bool Bullet::isOnScreen()
@@ -31,4 +34,15 @@ bool Bullet::isOnScreen()
 void Bullet::draw(sf::RenderWindow& window)
 {
     window.draw(*sprite);
+}
+
+sf::FloatRect Bullet::getBoundingBox()
+{
+    boundingBox = sprite->getGlobalBounds();
+    return boundingBox;
+}
+
+sf::Sprite* Bullet::getSprite()
+{
+    return sprite;
 }

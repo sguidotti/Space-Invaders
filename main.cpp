@@ -8,6 +8,7 @@
 #include "Compositions/ScreenComposite.h"
 #include "Leaves/Player.h"
 #include "Compositions/PlayerComposite.h"
+#include "Colissions.h"
 
 int main()
 {
@@ -15,6 +16,7 @@ int main()
     const int height = 800;
     const int width = 800;
     Game game(sf::VideoMode(width, height), "Galaga");
+    game.setVerticalSyncEnabled(true);
 
     // create sprite
     Component* enemyRows;
@@ -60,6 +62,22 @@ int main()
         // update game
         screen->move(deltaTime.asSeconds());
 
+        // check for collisons
+        auto playerObjs = player->getComposite();
+        auto enemyObjs = enemyRows->getComposite();
+        for(auto i : playerObjs) {
+            for(auto j : enemyObjs) {
+                auto k = j->getComposite();
+                for(auto enemy: k) {
+                    if(Collision::BoundingBoxTest(*(i->getSprite()), *(enemy->getSprite()))){
+                        i->die();
+                        enemy->die();
+                    }
+                }
+
+
+            }
+        }
         // clear screen
         game.clear(sf::Color::Black);
 

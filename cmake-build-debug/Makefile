@@ -123,6 +123,33 @@ galaga/fast:
 	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/build
 .PHONY : galaga/fast
 
+Colissions.o: Colissions.cpp.o
+
+.PHONY : Colissions.o
+
+# target to build an object file
+Colissions.cpp.o:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.o
+.PHONY : Colissions.cpp.o
+
+Colissions.i: Colissions.cpp.i
+
+.PHONY : Colissions.i
+
+# target to preprocess a source file
+Colissions.cpp.i:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.i
+.PHONY : Colissions.cpp.i
+
+Colissions.s: Colissions.cpp.s
+
+.PHONY : Colissions.s
+
+# target to generate assembly for a file
+Colissions.cpp.s:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.s
+.PHONY : Colissions.cpp.s
+
 Component.o: Component.cpp.o
 
 .PHONY : Component.o
@@ -510,6 +537,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... galaga"
+	@echo "... Colissions.o"
+	@echo "... Colissions.i"
+	@echo "... Colissions.s"
 	@echo "... Component.o"
 	@echo "... Component.i"
 	@echo "... Component.s"

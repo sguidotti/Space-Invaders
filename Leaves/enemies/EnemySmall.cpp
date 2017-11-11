@@ -64,6 +64,17 @@ void EnemySmall::swapTexture()
     }
 }
 
+sf::FloatRect EnemySmall::getBoundingBox()
+{
+    boundingBox = sprite->getGlobalBounds();
+    return boundingBox;
+}
+
+sf::Sprite* EnemySmall::getSprite()
+{
+    return sprite;
+}
+
 EnemySmall::~EnemySmall()
 = default;
 

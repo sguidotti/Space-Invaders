@@ -16,8 +16,11 @@ public:
     void move(float deltaTime) override;
     void draw(sf::RenderWindow&) override;
     sf::Vector2f getPosition() override;
-
+    bool isAlive() override {return alive;}
     bool isOnScreen() override;
+    void die() override {alive = false;}
+
+    sf::Sprite* getSprite() override;
 
 private:
     sf::Sprite* sprite;

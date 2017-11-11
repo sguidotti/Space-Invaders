@@ -20,9 +20,15 @@ public:
     void moveHorizontal() override;
 
     bool isOnScreen() override;
-
+    void die() override {alive = false;}
+    bool isAlive() override {return alive;}
     void moveDown() override;
     void swapTexture();
+
+    sf::Sprite* getSprite() override;
+
+    sf::FloatRect getBoundingBox() override;
+
 private:
     sf::Sprite* sprite;
     sf::FloatRect boundingBox;

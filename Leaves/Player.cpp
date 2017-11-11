@@ -49,3 +49,8 @@ bool Player::isOnScreen()
 {
     return true;
 }
+
+sf::Sprite* Player::getSprite()
+{
+    return sprite;
+}

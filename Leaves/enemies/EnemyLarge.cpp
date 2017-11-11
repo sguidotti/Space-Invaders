@@ -63,6 +63,17 @@ void EnemyLarge::swapTexture()
     }
 }
 
+sf::FloatRect EnemyLarge::getBoundingBox()
+{
+    boundingBox = sprite->getGlobalBounds();
+    return boundingBox;
+}
+
+sf::Sprite* EnemyLarge::getSprite()
+{
+    return sprite;
+}
+
 EnemyLarge::~EnemyLarge()
 = default;
 
