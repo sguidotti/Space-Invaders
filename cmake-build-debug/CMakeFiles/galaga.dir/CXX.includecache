@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.cpp
+Colissions.h
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.h
+map
+-
+SFML/Graphics.hpp
+-
+
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.h
+SFML/Graphics/Sprite.hpp
+-
+
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.cpp
 vector
 -
@@ -16,6 +28,8 @@ Component.h
 
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.h
 SFML/Graphics/RenderWindow.hpp
+-
+SFML/Graphics/Sprite.hpp
 -
 
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/EnemyRow.cpp
@@ -185,6 +199,8 @@ Leaves/Player.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/Player.h
 Compositions/PlayerComposite.h
 /Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Compositions/PlayerComposite.h
+Colissions.h
+/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

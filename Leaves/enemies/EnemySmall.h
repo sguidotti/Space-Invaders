@@ -20,7 +20,7 @@ public:
     void moveHorizontal() override;
 
     bool isOnScreen() override;
-    void die() override {alive = false;}
+    void die() override {alive = false; score += 100;}
     bool isAlive() override {return alive;}
     void moveDown() override;
     void swapTexture();

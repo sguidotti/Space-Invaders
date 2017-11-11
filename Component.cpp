@@ -54,7 +54,7 @@ sf::Sprite* Component::getSprite()
 }
 
 Component::~Component() = default;
-
+int Component::score = 0;
 
 
 

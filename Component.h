@@ -26,6 +26,7 @@ public:
     virtual void die() {};
     virtual bool isAlive() {return false;}
     virtual sf::Sprite* getSprite();
+    static int score;
 };
 
 #endif //GALAGA_COMPONENT_H

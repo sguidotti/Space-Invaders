@@ -24,7 +24,7 @@ public:
     sf::FloatRect getBoundingBox() override;
 
     bool isOnScreen() override;
-    void die() override {alive = false;}
+    void die() override {alive = false; score += 50;}
     bool isAlive() override {return alive;}
 
     void moveDown() override;

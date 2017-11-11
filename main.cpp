@@ -18,6 +18,20 @@ int main()
     Game game(sf::VideoMode(width, height), "Galaga");
     game.setVerticalSyncEnabled(true);
 
+    sf::Text prompt;
+    sf::Font font;
+    font.loadFromFile("images/gyparody_rg.ttf");
+
+    prompt.setCharacterSize(30);
+    prompt.setFillColor(sf::Color::White);
+    prompt.setString("Score: ");
+    prompt.setPosition(320, 30);
+    // point values are in the enemy file
+    prompt.setFont(font);
+
+
+// todo refactor all this shit
+
     // create sprite
     Component* enemyRows;
     enemyRows = new RowComposite;
@@ -81,8 +95,18 @@ int main()
         // clear screen
         game.clear(sf::Color::Black);
 
+        sf::Text gameScore;
+        gameScore.setFillColor(sf::Color::White);
+        gameScore.setCharacterSize(30);
+        gameScore.setPosition(410,30);
+        gameScore.setString(std::to_string(Component::score));
+        gameScore.setFont(font);
+
+
         // draw game
         screen->draw(game);
+        game.draw(gameScore);
+        game.draw(prompt);
 
 
         // display game

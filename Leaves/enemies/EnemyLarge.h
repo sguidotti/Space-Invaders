@@ -21,7 +21,7 @@ public:
 
     bool isOnScreen() override;
     bool isAlive() override {return alive;}
-    void die() override {alive = false;}
+    void die() override {alive = false; score += 60;}
     void moveDown() override;
     void swapTexture();
 

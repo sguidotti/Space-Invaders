@@ -27,10 +27,16 @@ Player::Player(sf::Vector2f position): Player()
 
 void Player::move(float deltaTime)
 {
+    auto width = sprite->getGlobalBounds().width/2;
+
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+        if(sprite->getPosition().x - width <= 0)
+            return;
         sprite->move(deltaTime * -velocity, 0);
     }
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
+        if(sprite->getPosition().x + width >= 800)
+            return;
         sprite->move(deltaTime * velocity, 0);
     }
 }
