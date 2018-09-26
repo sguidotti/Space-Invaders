@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.cpp">
+			<Option target="galaga"/>
+		</Unit>
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Colissions.h">
+			<Option target="galaga"/>
+		</Unit>
 		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Component.cpp">
 			<Option target="galaga"/>
 		</Unit>
@@ -128,22 +134,10 @@
 		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/Player.h">
 			<Option target="galaga"/>
 		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.cpp">
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.cpp">
 			<Option target="galaga"/>
 		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyLarge.h">
-			<Option target="galaga"/>
-		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.cpp">
-			<Option target="galaga"/>
-		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemyMedium.h">
-			<Option target="galaga"/>
-		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.cpp">
-			<Option target="galaga"/>
-		</Unit>
-		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/EnemySmall.h">
+		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Leaves/enemies/Enemy.h">
 			<Option target="galaga"/>
 		</Unit>
 		<Unit filename="/Users/Scott/Dropbox/Programming_Stuff/CS 200- Object Oriented Programming/Galaga/Observer Pattern Abstract/Observer.cpp">

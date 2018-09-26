@@ -23,9 +23,9 @@ void Component::draw(sf::RenderWindow&)
 
 }
 
-Component* Component::getComposite()
+Component::Components Component::getComposite()
 {
-    return nullptr;
+    return Components{};
 }
 
 void Component::moveDown()
@@ -48,8 +48,13 @@ sf::Vector2f Component::getPosition()
     return {};
 }
 
-Component::~Component() = default;
+sf::Sprite* Component::getSprite()
+{
+    return nullptr;
+}
 
+Component::~Component() = default;
+int Component::score = 0;
 
 
 

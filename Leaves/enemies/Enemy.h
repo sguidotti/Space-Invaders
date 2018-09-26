@@ -10,19 +10,26 @@
 #include <SFML/Graphics/Texture.hpp>
 #include "../../Component.h"
 
-
-class EnemySmall:public Component {
+class Enemy : public Component {
 public:
-    EnemySmall();
-    ~EnemySmall() override;
-    explicit EnemySmall(sf::Vector2f position);
+    Enemy(std::string, std::string, sf::Vector2f);
+
+    ~Enemy() override;
+
+    Enemy() = default;
     void draw(sf::RenderWindow&) override;
     void moveHorizontal() override;
 
     bool isOnScreen() override;
-
+    void die() override {alive = false; score += 100;}
+    bool isAlive() override {return alive;}
     void moveDown() override;
     void swapTexture();
+
+    sf::Sprite* getSprite() override;
+
+    sf::FloatRect getBoundingBox() override;
+
 private:
     sf::Sprite* sprite;
     sf::FloatRect boundingBox;

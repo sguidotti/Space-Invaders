@@ -123,6 +123,33 @@ galaga/fast:
 	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/build
 .PHONY : galaga/fast
 
+Colissions.o: Colissions.cpp.o
+
+.PHONY : Colissions.o
+
+# target to build an object file
+Colissions.cpp.o:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.o
+.PHONY : Colissions.cpp.o
+
+Colissions.i: Colissions.cpp.i
+
+.PHONY : Colissions.i
+
+# target to preprocess a source file
+Colissions.cpp.i:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.i
+.PHONY : Colissions.cpp.i
+
+Colissions.s: Colissions.cpp.s
+
+.PHONY : Colissions.s
+
+# target to generate assembly for a file
+Colissions.cpp.s:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Colissions.cpp.s
+.PHONY : Colissions.cpp.s
+
 Component.o: Component.cpp.o
 
 .PHONY : Component.o
@@ -339,86 +366,32 @@ Leaves/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/Player.cpp.s
 .PHONY : Leaves/Player.cpp.s
 
-Leaves/enemies/EnemyLarge.o: Leaves/enemies/EnemyLarge.cpp.o
+Leaves/enemies/Enemy.o: Leaves/enemies/Enemy.cpp.o
 
-.PHONY : Leaves/enemies/EnemyLarge.o
-
-# target to build an object file
-Leaves/enemies/EnemyLarge.cpp.o:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.o
-.PHONY : Leaves/enemies/EnemyLarge.cpp.o
-
-Leaves/enemies/EnemyLarge.i: Leaves/enemies/EnemyLarge.cpp.i
-
-.PHONY : Leaves/enemies/EnemyLarge.i
-
-# target to preprocess a source file
-Leaves/enemies/EnemyLarge.cpp.i:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.i
-.PHONY : Leaves/enemies/EnemyLarge.cpp.i
-
-Leaves/enemies/EnemyLarge.s: Leaves/enemies/EnemyLarge.cpp.s
-
-.PHONY : Leaves/enemies/EnemyLarge.s
-
-# target to generate assembly for a file
-Leaves/enemies/EnemyLarge.cpp.s:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyLarge.cpp.s
-.PHONY : Leaves/enemies/EnemyLarge.cpp.s
-
-Leaves/enemies/EnemyMedium.o: Leaves/enemies/EnemyMedium.cpp.o
-
-.PHONY : Leaves/enemies/EnemyMedium.o
+.PHONY : Leaves/enemies/Enemy.o
 
 # target to build an object file
-Leaves/enemies/EnemyMedium.cpp.o:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.o
-.PHONY : Leaves/enemies/EnemyMedium.cpp.o
+Leaves/enemies/Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.o
+.PHONY : Leaves/enemies/Enemy.cpp.o
 
-Leaves/enemies/EnemyMedium.i: Leaves/enemies/EnemyMedium.cpp.i
+Leaves/enemies/Enemy.i: Leaves/enemies/Enemy.cpp.i
 
-.PHONY : Leaves/enemies/EnemyMedium.i
-
-# target to preprocess a source file
-Leaves/enemies/EnemyMedium.cpp.i:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.i
-.PHONY : Leaves/enemies/EnemyMedium.cpp.i
-
-Leaves/enemies/EnemyMedium.s: Leaves/enemies/EnemyMedium.cpp.s
-
-.PHONY : Leaves/enemies/EnemyMedium.s
-
-# target to generate assembly for a file
-Leaves/enemies/EnemyMedium.cpp.s:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemyMedium.cpp.s
-.PHONY : Leaves/enemies/EnemyMedium.cpp.s
-
-Leaves/enemies/EnemySmall.o: Leaves/enemies/EnemySmall.cpp.o
-
-.PHONY : Leaves/enemies/EnemySmall.o
-
-# target to build an object file
-Leaves/enemies/EnemySmall.cpp.o:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.o
-.PHONY : Leaves/enemies/EnemySmall.cpp.o
-
-Leaves/enemies/EnemySmall.i: Leaves/enemies/EnemySmall.cpp.i
-
-.PHONY : Leaves/enemies/EnemySmall.i
+.PHONY : Leaves/enemies/Enemy.i
 
 # target to preprocess a source file
-Leaves/enemies/EnemySmall.cpp.i:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.i
-.PHONY : Leaves/enemies/EnemySmall.cpp.i
+Leaves/enemies/Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.i
+.PHONY : Leaves/enemies/Enemy.cpp.i
 
-Leaves/enemies/EnemySmall.s: Leaves/enemies/EnemySmall.cpp.s
+Leaves/enemies/Enemy.s: Leaves/enemies/Enemy.cpp.s
 
-.PHONY : Leaves/enemies/EnemySmall.s
+.PHONY : Leaves/enemies/Enemy.s
 
 # target to generate assembly for a file
-Leaves/enemies/EnemySmall.cpp.s:
-	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/EnemySmall.cpp.s
-.PHONY : Leaves/enemies/EnemySmall.cpp.s
+Leaves/enemies/Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/galaga.dir/build.make CMakeFiles/galaga.dir/Leaves/enemies/Enemy.cpp.s
+.PHONY : Leaves/enemies/Enemy.cpp.s
 
 Observer_Pattern_Abstract/Observer.o: Observer_Pattern_Abstract/Observer.cpp.o
 
@@ -510,6 +483,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... galaga"
+	@echo "... Colissions.o"
+	@echo "... Colissions.i"
+	@echo "... Colissions.s"
 	@echo "... Component.o"
 	@echo "... Component.i"
 	@echo "... Component.s"
@@ -534,15 +510,9 @@ help:
 	@echo "... Leaves/Player.o"
 	@echo "... Leaves/Player.i"
 	@echo "... Leaves/Player.s"
-	@echo "... Leaves/enemies/EnemyLarge.o"
-	@echo "... Leaves/enemies/EnemyLarge.i"
-	@echo "... Leaves/enemies/EnemyLarge.s"
-	@echo "... Leaves/enemies/EnemyMedium.o"
-	@echo "... Leaves/enemies/EnemyMedium.i"
-	@echo "... Leaves/enemies/EnemyMedium.s"
-	@echo "... Leaves/enemies/EnemySmall.o"
-	@echo "... Leaves/enemies/EnemySmall.i"
-	@echo "... Leaves/enemies/EnemySmall.s"
+	@echo "... Leaves/enemies/Enemy.o"
+	@echo "... Leaves/enemies/Enemy.i"
+	@echo "... Leaves/enemies/Enemy.s"
 	@echo "... Observer_Pattern_Abstract/Observer.o"
 	@echo "... Observer_Pattern_Abstract/Observer.i"
 	@echo "... Observer_Pattern_Abstract/Observer.s"

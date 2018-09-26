@@ -15,7 +15,7 @@ public:
     void add(Component* component) override;
     void move(float deltaTime) override;
     void draw(sf::RenderWindow&) override;
-    Component* getComposite() override {return this;}
+    Components getComposite() override {return componentsList;}
 
 private:
     std::vector<Component*> componentsList;

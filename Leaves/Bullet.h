@@ -19,14 +19,21 @@ public:
 
     void draw(sf::RenderWindow&) override;
 
+    sf::FloatRect getBoundingBox() override;
+
+    sf::Sprite* getSprite() override;
+
     bool isOnScreen() override;
+    bool isAlive() override {return alive;}
+    void die() override {alive = false; }
 
 private:
     const int velocity = -1000;
     sf::Sprite* sprite;
     sf::Texture textureA;
     sf::FloatRect boundingBox;
-    bool onScreen = true;
+    bool onScreen = false;
+    bool alive = false;
 
 };
 
